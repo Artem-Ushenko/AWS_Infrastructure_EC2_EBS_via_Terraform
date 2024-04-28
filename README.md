@@ -1,4 +1,4 @@
-# Terraform AWS EC2+EBS+Docker+Nginx Project
+# Terraform AWS Infrastructure - EC2, EBS, VPC
 
 This Terraform project sets up an AWS EC2 instance with an attached EBS volume, installs Docker, and runs an Nginx container. It demonstrates the power of Infrastructure as Code (IaC) for automating the deployment of a simple web server.
 
