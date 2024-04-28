@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
-  public_key = file("D:/MY_AWS_CLOUD/aws_key.pub")
+  public_key = file("path/to/aws_key.pub")
 }
 
 module "EC2_instance" {
